@@ -30,7 +30,7 @@ public class TestDao {
                 System.out.println(resultSet.getString("Database"));
                 databases.add(resultSet.getString("Database"));
             }
-            System.out.println("Finished retieving database names");
+            System.out.println("Finished retrieving database names");
         }
 
         return databases;
